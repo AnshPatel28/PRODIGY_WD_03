@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="turn-container">
+        <h3>Turn For</h3>
+        <div class="turn-box align">X</div>
+        <div class="turn-box align">O</div>
+        <div class="bg"></div>
+    </div>
+    <div class="main-grid">
+        <div class="box align"></div>
+        <div class="box align"></div>
+        <div class="box align"></div>
+        <div class="box align"></div>
+        <div class="box align"></div>
+        <div class="box align"></div>
+        <div class="box align"></div>
+        <div class="box align"></div>
+        <div class="box align"></div>
+    </div>
+    <h2 id="results"></h2>
+    <button class="play-again">Play Again</button>
+    <div class="game-mode">
+        <button class="mode" onclick="setMode('multiplayer')">Multiplayer</button>
+        <button class="mode" onclick="setMode('ai')">Play with AI</button>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
